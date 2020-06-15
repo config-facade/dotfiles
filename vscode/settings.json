@@ -1,0 +1,82 @@
+{
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "editor.wordWrap": true,
+    "editor.tabSize": 2,
+    "editor.fontSize": 12,
+    "go.gopath": "/Users/lukem/code",
+    "guides.enabled": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "window.zoomLevel": 0,
+    "files.trimTrailingWhitespace": true,
+    "typescript.check.tscVersion": false,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "extensions.ignoreRecommendations": true,
+    "csharp.format.enable": false,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": true,
+    "go.useLanguageServer": true,
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "python.jediEnabled": false,
+    "vsintellicode.python.completionsEnabled": false,
+    "python.condaPath": "/anaconda3/bin/conda",
+    "python.linting.banditEnabled": true,
+    "jupyter.appendResults": false,
+    "workbench.colorTheme": "Winter is Coming (Light)",
+    "vim.useSystemClipboard": true,
+    "catch2TestExplorer.userId": "aab835ccd899705efe2ea9fb63dd252b56788552",
+    "catch2TestExplorer.debugConfigTemplate": null,
+    "explorer.compactFolders": false,
+    "catch2TestExplorer.logSentry": "enable",
+    "terraform.indexing": {
+        "enabled": false,
+        "liveIndexing": false,
+        "delay": 500,
+        "exclude": [
+            ".terraform/**/*",
+            "**/.terraform/**/*"
+        ]
+    },
+    "terraform.languageServer": {
+        "enabled": true,
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    // Custom tags for the parser to use
+    "yaml.customTags": [
+        "!And",
+        "!If",
+        "!Not",
+        "!Equals",
+        "!Or",
+        "!FindInMap sequence",
+        "!Base64",
+        "!Cidr",
+        "!Ref",
+        "!Sub",
+        "!GetAtt",
+        "!GetAZs",
+        "!ImportValue",
+        "!Select",
+        "!Select sequence",
+        "!Split",
+        "!Join sequence",
+        "!cmd",
+        "!stack_output_external",
+        "!stack_output",
+        "!environment_variable"
+    ],
+    // Enable/disable default YAML formatter (requires restart)
+    "yaml.format.enable": true,
+    "MarkdownPaste.path": "${workspaceRoot}/services/konfigu-blog/static/img"
+}

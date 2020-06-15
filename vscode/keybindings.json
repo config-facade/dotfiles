@@ -1,0 +1,26 @@
+[
+    {
+        "key": "cmd+d",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "cmd+shift+d",
+        "command": "workbench.action.splitEditorOrthogonal"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "workbench.action.navigateDown"
+    }
+]

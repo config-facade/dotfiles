@@ -1,0 +1,10 @@
+[core]
+	editor = vim
+	excludesfile = /Users/lukem/.gitignore_global
+[user]
+	name = Luke M
+	email = luke@lukemuccillo.com
+[log]
+	decorate = true
+[alias]
+	lg=log --graph --color --decorate --oneline --all
